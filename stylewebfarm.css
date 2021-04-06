@@ -1,63 +1,78 @@
+html {
+  font-size: 10px;
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+}
 body {
     font-family: "Poppins", Arial, sans-serif;
     box-sizing: border-box;
     margin: 0;
+    font-size: 1rem;
 }
 .header {
     background-color:#6ea93a;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
-    height: 19.8px;
-    width: 100%;
+    height: 1.98rem;
+    width: 76.8rem;
 }
 .header ul {
     list-style: none;
-    margin-left: 190px;
-    margin-right: 190px;
+    margin-left: 1rem;
+    margin-right: 1rem;
     display: inline-flex;
-    width: 100%;
+    max-width: 100%;
     align-items: center;
     position: relative;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-left: 0px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 0rem;
+    font-size: 0.9rem;
 }
 .header ul li {
     max-width: 100%;
     box-sizing: border-box;
-    margin-left: 15px;
+    margin-left: 5rem;
+    margin-right: 7rem;
     color: white;
     text-transform: uppercase;
     flex-grow: 2;
-    font-size: 11px;
+    font-size: 0.9rem;
     font-weight: 400;
+}
+.header ul li:first-child {
+  margin-left: 1rem;
 }
 #ship {
     flex-grow: 4;
 }
 .menubar {
-    height: 67.8px;
+    height: 6.78rem;
     display: inline-flex;
     position: fixed;
-    width: 100%;
+    width: 76.8rem;
     transition: top 0.1s ease-in-out;
-    top: 27.8px;
+    top: 2.48rem;
     z-index: 999;
     background-color: white;
 }
 .menubar .shopname {
-    display: inline;
-    line-height: 67.8px;
-    margin-left: 190px;
-    margin-right: 190px;
+    display: block;
+    flex-grow: 1;
+    line-height: 6.78rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
 }
 .menubar .shopname a {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 800;
     color:#6ea93a;
     text-decoration: none;
     transition: 0.3s all ease;
-    margin-left: 15px;
+    margin-left: 1rem;
 }
 .menubar .shopname a:hover {
     color: black;
@@ -66,47 +81,42 @@ body {
     list-style: none;
     display: inline-flex;
     text-transform: uppercase;
-    height: 67.8px;
-    line-height: 67.8px;
+    height: 6.78rem;
+    line-height: 6.78rem;
     margin-top: 0;
 }
 .menubar .mainmenu ul a {
     text-decoration: none;
-    font-size: 11px;
-    letter-spacing: 2px;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
     color: black;
     opacity: 1;
-    margin-left: 20;
-    margin-right: 20;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 .menubar .mainmenu {
-    margin-right: 190px;
+    margin-right: 5rem;
     float: right;
-}
-.menubar .mainmenu ul li {
-    margin-right: 20px;
-    margin-left: 20px;
+    flex-grow: 3;
 }
 .menubar .mainmenu ul a:hover {
   color: #6ea93a;;
 }
   #slideshow {
     overflow: hidden;
-    height: 650px;
-    width: 1520px;
+    height: 65em;
     max-width: 100%;
   }
   
   .slide-wrapper {
-    height: 650px;
-    width: 6080px;
+    height: 65em;
+    width: 608em;
     -webkit-animation: slide 18s linear infinite;
   }
   
   .slide {
     float: left;
-    height: 650px;
-    width: 1520px;
+    height: 65em;
     width: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -132,42 +142,40 @@ body {
     font-weight: 400;
     font-family: "amatic sc",cursive;
     text-align: center;
-    height: 650px;
-    line-height: 650px;
-    margin-top: 0px;
+    height: 65em;
+    line-height: 65em;
+    margin-top: 0;
   }
   
   @-webkit-keyframes slide {
-    20% {margin-left: 0px;}
-    30% {margin-left: -1520px;}
-    50% {margin-left: -1520px;}
-    60% {margin-left: -3040px;}
-    70% {margin-left: -3040px;}
-    80% {margin-left: -3040px;}
-    90% {margin-left: -3040px;}
+    20% {margin-left: em;}
+    30% {margin-left: -152em;}
+    50% {margin-left: -152em;}
+    60% {margin-left: -304em;}
+    70% {margin-left: -304em;}
+    80% {margin-left: -304em;}
+    90% {margin-left: -304em;}
   }
   .container1 {
     text-align: center;
-    width: 280px;
+    width: 18rem;
   }
  .items .circle {
-  height: 85px;
-  width: 85px;
+  height: 8.5rem;
+  width: 8.5rem;
   border-radius: 50%;
   border: solid 1px whitesmoke;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 9rem;
 }
 .items .circle > i {
   font-size: xx-large;
   align-items: center;
-  padding: 25px 0 0 0px;
-  width: 65px;
-  height: 90px;
+  padding: 2.5rem 0 0 em;
+  line-height: 8.5rem;
 }
 .container1 > p {
-  padding-top: 15px;
-  width: 250px;
+  padding-top: 1.5rem;
   display: inline-block;
 }
 #text2 {
@@ -177,75 +185,82 @@ body {
 }
 .items .circle:hover {
   background-color: #6ea93a;
-  box-shadow: 0 0 0 12px #6ea93a;
+  box-shadow: 0 0 0 1.2em #6ea93a;
 }
 .items .item1 {
   background-color: #E4B2D6;
-  box-shadow: 0 0 0 12px #E4B2D6;
+  box-shadow: 0 0 0 1.2em #E4B2D6;
 }
 .items .item2 {
   background-color: #DCC698;
-  box-shadow: 0 0 0 12px #DCC698;
+  box-shadow: 0 0 0 1.2em #DCC698;
 }
 .items .item3 {
   background-color: #A2D1E1;
-  box-shadow: 0 0 0 12px #A2D1E1;
+  box-shadow: 0 0 0 1.2em #A2D1E1;
 } 
 .items .item4 {
   background-color: #DCD691;
-  box-shadow: 0 0 0 12px #DCD691;
+  box-shadow: 0 0 0 1.2em #DCD691;
 }
 .items {
   display: flex;
   justify-content: center;
 } 
 .container2 {
-  display: flex;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 7rem;
+}
+.container2 .sp-container {
+  display: flex;
+  flex-direction: column;
 }
 .container2 .sp {
-  height: 530px;
-  width: 380px;
+  height: 52rem;
+}
+.container2 .shop {
+  height: 45rem;
+  width: 76.8rem;
 }
 .container2 .sp .pic {
-  height: 250px;
-  width: 380px;
+  height: 25rem;
+  width: 76.8rem;
 }
 .container2 .sp .pic img {
-  height: 250px;
-  width: 350px;
+  height: 25em;
+  width: 76.8rem;
   object-fit: cover;
 }
 .container2 .sp .pic {
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
   position: relative;
 }
 .container2 .sp .pig {
-  padding-bottom: 20px;
+  padding-bottom: 1rem;
 }
 .container2 .shop {
+  display: block;
   text-align: center;
   position: relative;
 }
 .container2 .shop p:nth-of-type(1) {
   color: #6ea93a;
-  font-size: 24px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  font-size: 2.4em;
+  margin-top: em;
+  margin-bottom: em;
 }
 .container2 .shop p:nth-of-type(2) {
   color: #B3B3B3;
-  font-size: 16px;
+  font-size: 1.6em;
 }
 .container2 .shop button {
   background-color: #6ea93a;
-  border-radius: 25px;
-  width: 100px;
-  height: 40px;
+  border-radius: 2.5em;
+  width: 10em;
+  height: 4em;
   text-align: center;
   color: white;
-  font-size: 16px;
+  font-size: 1.6em;
   border: solid 1px #6ea93a;
 }
 .container2 .shop button:hover {
@@ -255,87 +270,96 @@ body {
 }
 .container2 .sp .pic div > button {
   position: absolute;
-  bottom: 20px;
-  left: 0px;
+  bottom: 2em;
+  left: em;
   background-color: #6ea93a;
-  width: 100px;
-  height: 40px;
+  width: 10em;
+  height: 4em;
   text-align: center;
-  font-size: 16px;
+  font-size: 1.6em;
   color: white;
   border: solid 1px #6ea93a;
 }
 .container2 .shop .pic-shop {
   position: absolute;
-  height: 250px;
-  bottom: 10px;
+  height: 25rem;
+  bottom: 1em;
+  width: 76.8rem;
+}
+.container2 .shop .pic-shop img {
+  width: 76.8rem;
+  height: 25rem;
+  object-fit: cover;
 }
 .container2 .sp .shop-text {
-  margin-left: -30px;
+  margin-left: -3em;
 }
 .container2 .sp .pic div > button:hover {
   cursor: pointer;
 }
 .listshop h4 {
   color: #6ea93a;
-  font-size: 18px;
+  font-size: 1.8em;
   text-align: center;
   text-transform: capitalize;
   font-weight: lighter;
 }
 .listshop .indam {
   color: black;
-  font-size: 30px;
+  font-size: 3em;
   font-weight: bolder;
   text-align: center;
   text-transform: capitalize;
 }
 .listshop .chuthuong {
   color: #B3B3B3;
-  font-size: 16px;
+  font-size: 1.6em;
   text-align: center;
 }
 .listshop {
-  margin-top: 150px;
+  margin-top: 10rem;
 }
 .products {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-  width: 1100px;
+  width: 76.8rem;
   flex-wrap: wrap;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 3em;
 }
 .products .sanpham {
-  margin: 10px;
+  margin: 1em;
   border: solid 1px white;
   position: relative;
-  height: 280px;
+  height: 28em;
   text-align: center;
 }
 .products .sanpham .zoom > img {
   object-fit: cover;
+  width: 25rem;
+  height: 20rem;
 }
 .products .sanpham .giasp {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 40px;
+  margin-top: 4em;
 }
 .products .sanpham .giasp .tensp {
   text-transform: uppercase;
   color: black;
-  font-size: 16px;
+  font-size: 1.6em;
 }
 .products .sanpham .giasp .gia {
   color: #6ea93a;
-  margin-top: -10px;
+  margin-top: -1em;
 }
 /* [1] The container */
 .products .zoom {
-  height: 200px; /* [1.1] Set it as per your need */
+  height: 20em; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
@@ -349,15 +373,15 @@ body {
   transform: scale(1.15);
 }
 .countdown {
-  height: 600px;
+  height: 60rem;
 }
 .countdown img {
   object-fit: cover;
-  height: 600px;
+  height: 60rem;
   margin: 0 auto;
-  width: 1520px;
+  width: 76.8rem;
   display: block;
-  margin-top: 100px;
+  margin-top: 10rem;
 }
 .countdown .anh {
   position: relative;
@@ -365,60 +389,60 @@ body {
 .countdown .anh .thongtin {
   position: absolute;
   z-index: 1;
-  top: 100px;
-  margin-top: 0px;
-  margin-left: 800px;
+  top: 10rem;
+  margin-top: em;
+  margin-left: 37rem;
 }
 .countdown .anh .thongtin .xanhlacay {
-  font-size: 24px;
+  font-size: 2.4rem;
   text-transform: capitalize;
   color: #6ea93a;
 }
 .countdown .anh .thongtin .to {
   color: black;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: bolder;
 }
 .countdown .anh .thongtin .ghi {
   color: #808080;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 .countdown .anh .thongtin .masanpham {
   color: #6ea93a;
-  font-size: 24px;
+  font-size: 2.4rem;
 }
 .countdown .anh .thongtin .giacu {
   color: #808080;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 .countdown .anh .thongtin .giamoi {
   color: #6ea93a;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 .countdown .anh .thongtin .chu {
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
 }
 .countdown .anh .thongtin .demnguoc {
   color: #6ea93a;
-  font-size: 40px;
+  font-size: 4rem;
 }
 .comments .xanhlacay {
   color: #6ea93a;
-  font-size: 18px;
+  font-size: 1.8rem;
 } 
 .comments .indam {
   color: black;
-  font-size: 36px;
+  font-size: 3.6rem;
   text-transform: capitalize;
 }
 .comments .slogan {
   color: #808080;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 .comments {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 10rem;
 }
 .slideshow-container {
   position: relative;
@@ -428,7 +452,7 @@ body {
 /* Slides */
 .mySlides {
   display: none;
-  padding: 80px;
+  padding: 8rem;
   text-align: center;
 }
 
@@ -436,7 +460,7 @@ body {
 .next {
   position: absolute;
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 0.3rem 0 0 0.3rem;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -448,14 +472,14 @@ body {
 /* The dot/bullet/indicator container */
 .dot-container {
     text-align: center;
-    padding: 20px;
+    padding: 2rem;
 }
 
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 1.5rem;
+  width: 1.5rem;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -474,21 +498,21 @@ q {font-style: italic;}
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
 .quotes {
-  height: 400px;
-  margin-bottom: 150px;
+  height: 40rem;
+  margin-bottom: 15rem;
 }
 .quotes .slideshow-container .mySlides .khachhang img {
   border: solid 1px white;
   border-radius: 50%;
-  margin-bottom: 50px;
-  height: 100px;
-  width: 100px;
+  margin-bottom: 5rem;
+  height: 10rem;
+  width: 10rem;
   object-fit: cover;
 }
 .logoitems {
   margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   display: flex;
   justify-content: center;
 }
@@ -500,48 +524,48 @@ hr {
 .logoitems img {
   display: inline;
   object-fit: scale-down;
-  height: 50px;
+  height: 5rem;
 }
 .logoitems .anhlogo {
-  height: 50px;
-  width: 150px;
-  margin-left: 50px;
+  height: 5rem;
+  width: 12rem;
+  margin-left: 2rem;
 }
 .subcribe {
-  height: 200px;
+  height: 20rem;
   background-color: #F7F6F2;
   display: flex;
   align-items: center;
 }
 .subcribe .p1 {
-  margin-left: 200px;
-  margin-right: 100px;
+  margin-left: 5rem;
+  margin-right: 10rem;
 }
 .subcribe .inputmail {
-  width: 700px;
+  width: 50rem;
 }
 .subcribe .inputmail button:hover {
   cursor: pointer;
 }
 .subcribe .chuto {
-  font-size: 30px;
+  font-size: 3rem;
   color: black;
   text-transform: capitalize;
-  margin-bottom: 0px;
+  margin-bottom: em;
 }
 .subcribe .chunho {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #808080;
 }
 .subcribe .inputmail input[type=text] {
-  width: 450px;
-  padding: 15px 20px;
+  width: 25rem;
+  padding: 1.5rem 2rem;
   float: left;
   border: none;
 }
 .subcribe .inputmail button {
   float: left;
-  padding: 15px 20px;
+  padding: 1.25rem 1.75rem;
   background-color: #6ea93a;
   color: white;
   border: none;
@@ -550,64 +574,66 @@ hr {
   margin: 0 auto;
   border: solid 1px white;
   border-radius: 50% 50%;
-  margin-top: -30px;
-  height: 60px;
-  width: 60px;
+  margin-top: -3rem;
+  height: 6rem;
+  width: 6rem;
   background-color: #6ea93a;
   text-align: center;
 }
 .scroll a {
   text-decoration: none;
-  margin-top: -30px;
-  line-height: 60px;
-  width: 60px;
+  margin-top: -3rem;
+  line-height: 6rem;
+  width: 6rem;
   color: white;
 }
 .footer {
-  margin-top: 50px;
-  margin-left: 190px;
-  margin-right: 190px;
+  margin-left: 5rem;
+  margin-right: 5rem;
   display: flex;
   justify-content: left;
 }
 .footer .cot {
-  width: 300px;
+  width: 20rem;
   float: left;
   font-family: "Poppins", Arial, sans-serif;
 }
+.footer .cot1 {
+  width: 25rem;
+}
 .footer .cot h6 {
-  font-size: 16px;
-  margin-bottom: 16px;
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
 }
 .footer .cot a {
   text-decoration: none;
   color: black;
   display: block;
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 .footer .cot2 a:hover {
   cursor: pointer;
 } 
 .mangxahoi {
-  margin-left: 190px;
+  margin-left: 5rem;
 }
 .mangxahoi > div {
   position: relative;
   border-radius: 50% 50%;
   background-color:#F0F0F0;
-  height: 45px;
-  width: 45px;
+  height: 3rem;
+  width: 3rem;
   display: inline-block;
   text-align: center;
   vertical-align: middle;
 }
 .mangxahoi div a {
-  height: 45px;
-  line-height: 45px;
+  height: 3rem;
+  line-height: 3rem;
   vertical-align: middle;
-  width: 40px;
+  width: 3rem;
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 2rem;
   display: inline-block;
 }
